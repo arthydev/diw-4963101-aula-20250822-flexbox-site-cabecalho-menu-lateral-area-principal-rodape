@@ -57,7 +57,57 @@
       /* border: 0.1rem solid orange; */
       width: 15rem;
       background-color: #eee;
+      padding: .6rem;
     }
+
+ nav {
+     /* border: 0.1rem solid orange; */
+     width: 15rem;
+     background-color: #eee;
+     padding: .6rem;
+     color: #5e5e5e;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ .opcao {
+     /* border: .1rem solid red; */
+     display: flex;
+     padding: .6rem;
+     background-color: #ddd;
+     border-radius: .5rem;
+ }
+
+ .opcao:hover {
+     color: black;
+     background-color: #ccc;
+     box-shadow: 0rem .3rem .3rem .01rem #d0cfcf;
+     border:  .1rem solid black;
+ }
+
+ .opcao:hover .icone-final{
+    opacity: 1;
+ }
+
+ .icone-inicial {
+     /* border: .1rem solid blue; */
+     width: 1.5rem;
+ }
+
+ .rotulo {
+     /* border: .1rem solid green; */
+     flex: 1;
+ }
+
+ .icone-final {
+     /* border: .1rem solid blue; */
+     width: 1.5rem;
+     text-align: right;
+     transition: opacity .3sec ease ;
+ }
+
 
     main {
       /* border: 0.1rem solid pink; */
@@ -114,4 +164,8 @@
       padding: 0.5rem;
       background-color: rgb(48, 44, 44);
       color: #eee;
+    }
+
+    @media (max-width: 578px){
+        
     }
